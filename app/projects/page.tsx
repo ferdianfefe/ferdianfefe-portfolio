@@ -1,4 +1,4 @@
-import ProjectItem from "@/components/elements/ProjectItem";
+import ProjectItem from "@/components/elements/projectItem";
 import DefaultLayout from "@/components/layout/defaultLayout";
 
 const webProjects = [
