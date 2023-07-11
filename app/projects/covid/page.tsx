@@ -21,7 +21,7 @@ const Leafin = () => {
         calculated that the dataset contains 10,290 negative images and 3,674
         positive images of COVID-19.
       </p>
-      <div className="mx-auto my-6" align="center">
+      <div className="mx-auto my-6">
         <Image
           src="/images/covid/covid-2.png"
           alt="leafin"
@@ -38,7 +38,7 @@ const Leafin = () => {
         the prediction model. The prediction algorithm used is Convolutional
         Neural Network with architecture as below:
       </p>
-      <div align="center" className="my-6">
+      <div className="my-6">
         <Image
           src="/images/covid/model.png"
           width="300"
@@ -53,7 +53,7 @@ const Leafin = () => {
         Once trained, the model is then used to make predictions. Below are some
         examples of the prediction results.
       </p>
-      <div align="center" className="my-6">
+      <div className="my-6">
         <Image
           src="/images/covid/covid-1.png"
           width="500"
