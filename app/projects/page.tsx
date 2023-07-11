@@ -1,27 +1,73 @@
 import ProjectItem from "@/components/elements/projectItem";
 import DefaultLayout from "@/components/layout/defaultLayout";
 
+const aiProjects = [
+  {
+    title: "Forest Fire Detection",
+    description:
+      "This project is an AI model to recognize and isolate the fire area in an image. The pipeline is build on top of 2 models, namely YOLOv8 to localize the fire areas and U-Net model to segment the fire area producing a binary image.",
+    image: "/images/FireDetection/cover.webp",
+    path: "/projects/forest-fire",
+    tags: ["YOLOv8", "U-Net", "CNN", "TensorFlow", "TransferLearning"],
+  },
+  {
+    title: "COVID-19 X-Ray Diagnosis",
+    description:
+      "This model takes chest X-ray images as an input and diagnoses if the patient is COVID-19 positive. The model is implemented using Convolutional Neural Network (CNN) architecture.",
+    image: "/images/covid/covid-cover.png",
+    path: "/projects/covid",
+    tags: ["TensorFlow", "CNN", "Classification", "Deep Learning"],
+  },
+  {
+    title: "H1N1 and Seasonal Flu Vaccines Tendency",
+    description:
+      "This AI model predicts one's tendencies to receive H1N1 and seasonal flu vaccines based on personal information and medical records. We perform extensive analysis to learn the data characteristics and then select important features related to vaccination tendencies.",
+    image: "/images/vaccine/vaccine.webp",
+    path: "/projects/vaccine",
+    tags: ["CatBoost", "GradientBoosting", "ScikitLearn", "TailwindCSS"],
+  },
+  {
+    title: "House Price Prediction",
+    description:
+      "This project compares regression and ensemble learning algorithms to predict house prices based on house-related information (number of rooms, stairs, fireplaces, garage, etc.) Before the prediction, I also implemented thorough data analysis and cleaning to prepare the data. In conclusion, the Extreme Gradient Boosting algorithm demonstrated the best performance among the other algorithms.",
+    image: "/images/house/housing.jpg",
+    path: "/projects/house-price",
+    tags: ["VueJS", "ExpressJS", "MySQL"],
+  },
+];
+
 const webProjects = [
   {
-    title: "Project 1",
+    title: "Leafin",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+      "Leafin is a progressive web app designed for mobile devices. Leafin provides several features, such as plan monitoring system, plants layouting with AR, real-time chatbot, and articles",
     image: "/images/Leafin/leafin-1.png",
-    tags: ["Python", "Data Science", "Machine Learning"],
+    path: "/projects/leafin",
+    tags: ["NextJS", "MongoDB", "ExpressJS", "TailwindCSS"],
   },
   {
-    title: "Project 2",
+    title: "Pathseeker.id",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+      "Pathseeker.id is the official website of Pathseeker. This website provides several features such as event information and registration, partnership proposal, and admin dashboard.",
     image: "/images/Pathseeker.id/path1.png",
-    tags: ["Python", "Data Science", "Machine Learning"],
+    path: "/projects/pathseeker",
+    tags: ["NextJS", "TailwindCSS", "Firebase"],
   },
   {
-    title: "Project 3",
+    title: "PPSMB UGM 2022",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+      "The website provides information regarding PPSMB 2022 event series to 9000+ freshmen",
     image: "/images/PPSMB Web/1.png",
-    tags: ["Python", "Data Science", "Machine Learning"],
+    path: "/projects/ppsmb",
+    tags: ["ThreeJS", "NextJS", "Strapi", "TailwindCSS"],
+  },
+  {
+    title: "E-Voting Web For HMTI UGM Chairman Election",
+    description:
+      "An online voting platform for HMTI UGM's chairman and vice chairman election in 2021. This website provides candidates information and voting feature and also admin dashboard displaying the voting result in real-time.",
+    image: "/images/HMTI/hmti1.png",
+    path: "/projects/hmti",
+    tags: ["VueJS", "ExpressJS", "MySQL"],
   },
 ];
 
@@ -35,7 +81,7 @@ const Projects = () => {
         </div>
         <div className="px-20 py-8">
           <div className="grid grid-cols-3 gap-20">
-            {webProjects.map((project, index) => (
+            {aiProjects.map((project, index) => (
               <ProjectItem key={index} project={project} />
             ))}
           </div>
