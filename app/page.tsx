@@ -79,10 +79,11 @@ export default function Home() {
       <section className="flex justify-between px-40 min-h-[100vh] items-center">
         <div className="p-20 flex-1">
           <h1 className="text-4xl font-bold">
-            Hi, I'm <span className="text-blue-500">Richardus Ferdian</span>
+            Hi, I&apos;m{" "}
+            <span className="text-blue-500">Richardus Ferdian</span>
           </h1>
           <p className="text-xl">
-            I'm a Full Stack Web Developer + Data Scientist
+            I&apos;m a Full Stack Web Developer + Data Scientist
           </p>
         </div>
         <div className="flex-1">

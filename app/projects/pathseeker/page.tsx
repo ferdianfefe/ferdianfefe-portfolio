@@ -2,7 +2,7 @@ import ProjectLayout from "@/components/layout/projectLayout";
 import Image from "next/image";
 import Button from "@/components/elements/button";
 
-const Leafin = () => {
+const Pathseeker = () => {
   return (
     <ProjectLayout
       title="COVID-19 X-Ray Diagnosis"
@@ -24,7 +24,7 @@ const Leafin = () => {
       <div className="mx-auto my-6" align="center">
         <Image
           src="/images/covid/covid-2.png"
-          alt="leafin"
+          alt="Pathseeker"
           width={300}
           height={300}
           className="rounded-xl object-cover"
@@ -80,4 +80,4 @@ const Leafin = () => {
   );
 };
 
-export default Leafin;
+export default Pathseeker;

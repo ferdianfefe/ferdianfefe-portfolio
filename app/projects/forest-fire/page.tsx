@@ -5,9 +5,9 @@ import Image from "next/image";
 const ForestFire = () => {
   return (
     <ProjectLayout
-      title="Leafin"
+      title="Fire Forest Detection"
       createdAt="May 2023"
-      tags={["NextJS", "MongoDB", "ExpressJS", "TailwindCSS"]}
+      tags={["YOLOv8", "U-Net", "CNN", "TensorFlow", "TransferLearning"]}
     >
       <div className="flex flex-col">
         <div className="relative h-[300px] w-full mx-auto">
