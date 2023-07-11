@@ -95,7 +95,7 @@ const Vaccine = () => {
           seasonal vaccine. As the final metric of performance, we used ROC AUC
           curve. The ROC AUC curve is a plot of the true positive rate against
           the false positive rate. The area under the curve (AUC) is a measure
-          of the model's performance. The higher the AUC, the better the model
+          of the model&apos;s performance. The higher the AUC, the better the model
           is. Overall, the model achieved 0.87 and 0.87 for H1N1 and seasonal
           vaccine, respectively.
         </p>

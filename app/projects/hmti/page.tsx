@@ -21,11 +21,11 @@ const HMTI = () => {
         <small className="mx-auto">Figure 1 Landing Page</small>
       </div>
       <p className="mt-3">
-        An online voting platform for HMTI UGM's chairman and vice chairman
+        An online voting platform for HMTI UGM&apos;s chairman and vice chairman
         election in 2021. There are 2 features provided:
       </p>
       <ul className="list-disc">
-        <li>Candidates' information and voting features for voters</li>
+        <li>Candidates information and voting features for voters</li>
         <li>
           Admin dashboard displaying real-time polling and the final result
         </li>

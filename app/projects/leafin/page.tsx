@@ -23,7 +23,7 @@ const Leafin = () => {
       <ul className="list-disc">
         <li>
           A plant monitoring system integrated with IoT devices via Blynk allows
-          users to monitor their plants' real-time information such as humidity,
+          users to monitor their plants&apos; real-time information such as humidity,
           temperature, and water level.
         </li>
         <li>
